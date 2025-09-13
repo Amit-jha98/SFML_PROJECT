@@ -1,0 +1,28 @@
+// Debug this code to make it work correctly
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> numbers = {1, 2, 3, 4, 5};
+    int sum = 0;
+    
+    // Bug: Loop condition is wrong
+    for(int i = 0; i <= numbers.size(); i++) {
+        sum += numbers[i];
+    }
+    
+    cout << "Sum: " << sum << endl;
+    
+    // Bug: Division by zero potential
+    int average = sum / 0;
+    cout << "Average: " << average << endl;
+    
+    return 0;
+}
+#include<iostream>
+#include<vector>
+using namespace std:
+int main(){
+vector<int> numbers = {1,2,3,4,5};
+int sum  = 0;
