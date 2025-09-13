@@ -1,0 +1,17 @@
+g++ o1.cpp -o app.exe -static -D SFML_STATIC -D _WIN32_WINNT=0x0601 `
+    -I"C:\Program Files\GCC\SFML-2.6.2\include" `
+    -L"C:\Program Files\GCC\SFML-2.6.2\lib" `
+    -lsfml-graphics-s -lsfml-window-s -lsfml-system-s `
+    -lopengl32 -lfreetype -lgdi32 -lwinmm -mwindows
+'
+
+
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Amit-jha98/SFML_PROJECT.git
+git push -u origin main
