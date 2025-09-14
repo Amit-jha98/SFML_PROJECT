@@ -19,3 +19,6 @@ git push -u origin main
 
 
 
+npm init -y
+npm install express body-parser ejs
+
