@@ -1,2 +1,15 @@
 o1.cpp
-O2.cpp
+O2.
+./test_express
+./test_python
+.DS_Store
+node_modules
+env
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+test_express
+test_python
+*.log

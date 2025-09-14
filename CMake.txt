@@ -15,3 +15,74 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Amit-jha98/SFML_PROJECT.git
 git push -u origin main
+
+
+
+
+
+#  Web App Development
+
+### Event Registration App
+
+**Time Limit:** 1 Hour
+**Tech:** Node.js (Express) or Python (Flask)
+**Goal:** Build a simple full-stack web app for event registrations.
+
+---
+
+##  Requirements
+
+* **Frontend:** HTML, CSS (Bootstrap optional)
+* **Backend:** Node.js (Express) or Python (Flask)
+* **Data:** Use in-memory array or JSON (no SQL required)
+* **Deliverable:** Working app with clean code & UI
+
+---
+
+##  Tasks & Marks
+
+1. **Setup Project Structure (1 mark)**
+
+   * Create proper folder structure:
+
+     ```
+     event-app/
+     ├── server.js or app.py
+     ├── views/ or templates/
+     ├── public/ (optional for CSS)
+     ```
+
+2. **Event Listing Page (3 marks)**
+
+   * Show list of at least 3 events (e.g., Cultural Fest, Sports Meet, Tech Talk).
+   * Display participant count beside each event.
+   * Add **Register Now** button/link.
+
+3. **Registration Form (4 marks)**
+
+   * Form with fields: **Name, Email, Choose Event (dropdown)**.
+   * Submit → backend updates participant count.
+
+4. **Confirmation Page (3 marks)**
+
+   * After submission, show:
+
+     * Participant’s Name
+     * Selected Event
+     * Updated Participant Count
+   * Add link back to event listing.
+
+5. **Code Neatness & Indentation (2 marks)**
+
+   * Clean, properly indented code with clear variable names.
+
+6. **UI Design & Presentation (2 marks)**
+
+   * User-friendly, neat interface.
+   * Use Bootstrap or CSS for styling (spacing, buttons, alignment).
+
+---
+
+##  Total = 15 Marks
+
+---
